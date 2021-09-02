@@ -70,4 +70,6 @@ void SwitchProController::processReport(uint8_t *buffer, size_t length)
     motionState.velocityZ = report->velocityZ;
 
     // TODO: implement battery level
+    
+    printf('we got here');
 }
