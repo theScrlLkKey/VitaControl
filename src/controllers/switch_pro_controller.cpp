@@ -71,5 +71,5 @@ void SwitchProController::processReport(uint8_t *buffer, size_t length)
 
     // TODO: implement battery level
     
-    printf('we got here');
+    printf ("we got here");
 }
