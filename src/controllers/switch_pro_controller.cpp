@@ -1,5 +1,5 @@
 #include <psp2kern/ctrl.h>
-
+#include <cstdio>
 #include "switch_pro_controller.h"
 
 SwitchProController::SwitchProController(uint32_t mac0, uint32_t mac1, int port): Controller(mac0, mac1, port)
